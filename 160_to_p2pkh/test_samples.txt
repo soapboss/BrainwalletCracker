@@ -1,0 +1,16 @@
+# 这个文件包含一些RIPEMD-160哈希值，以及它们对应的比特币P2PKH地址
+# 格式：RIPEMD-160哈希 -> P2PKH地址
+
+# 比特币创世区块中使用的地址的哈希
+62e907b15cbf27d5425399ebf6f0fb50ebb88f18 -> 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+
+# 其他常见测试用例
+4ede65ae7e430de8b0a2190bb44dd282169947b3 -> 18C28PfJnUGdrvf5g8Vb9iC7zhSSJXfKc3
+2cd69f9f5fce5c57bd0ab4bfaf2b5b6da147fa53 -> 1565qkBbLcuFP78f7MFKkK8jtHGDwdSgvX
+7a4852f7a112b65b78fd12df22e414622a4e3c7d -> 1C9a5a1xz7RtAbfTvUQRnmWqQ9cayFDSiL
+
+# 可以使用以下命令测试哈希到地址的转换：
+# ./hash160_converter -p -f test_samples.txt
+# 
+# 或者使用以下命令测试具体哈希值：
+# ./hash160_converter -p -s 62e907b15cbf27d5425399ebf6f0fb50ebb88f18 
