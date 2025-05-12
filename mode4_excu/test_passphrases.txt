@@ -1,0 +1,4 @@
+correct,battery
+passphrase,salt
+test,123@qq.com
+123456,abc@example.com

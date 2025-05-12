@@ -1,0 +1,8 @@
+# Bitcoin Wallet Address BrainwalletIO Configuration
+
+# Number of threads to use for generation and checking
+# Set to 0 to use all available CPU cores
+threads: 32
+
+# Default salt to use when no salt is provided in input file or command line
+default_salt: "" 
